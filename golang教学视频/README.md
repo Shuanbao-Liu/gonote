@@ -38,4 +38,8 @@
  * 9.《基于Golang协程实现流量统计系统》<br>
  链接: https://pan.baidu.com/s/1CDnuKHJn0BA9OAnsmd8adA<br>
  密码: qjr3
+ 
+ * 10.《黑马Go语言快速入门（2018年2月更新精品，不带源码课件）》<br>
+ 链接：https://pan.baidu.com/s/1DI1AEg4he-Udkp_G_Zh-HQ<br>
+ 密码：1nor
 
