@@ -1,9 +1,66 @@
+官网:http://liteide.org/cn/
+简介
+LiteIDE 是一个轻量级的开源跨平台 Go语言 IDE.
 
-## LiteIDE使用指南 
+版本: X34
+作者: 七叶 (visualfc)
 
-* [1.goland介绍](1.介绍.md)<br>
-* [2.goland安装](2.安装.md)<br>
-* [3.常用设置](3.常用设置.md)<br>
-* [4.快捷键](4.快捷键.md)<br>
-* [5.插件安装](5.插件安装.md)<br>
-* [6.故障排除](6.故障排除.md)<br>
+功能
+核心功能
+
+系统环境管理
+MIME类型管理
+可配置编译命令
+支持文件搜索替换和恢复
+快速打开文件、符号和命令
+插件系统 
+高级代码编辑器
+
+代码编辑支持 Go语言、Markdown 和 Golang Present
+快速代码导航工具
+语法高亮和配色方案
+代码完成
+代码折叠
+显示保存修订
+重读文件使用代码差异方式 
+Go 语言支持
+
+Go 编译环境管理
+使用标准 Go 工具和 GOPATH 编译和测试
+自定义 GOPATH 支持 系统定义、IDE 定义和项目定义
+自定义项目编译配置
+Go 包浏览器
+Go 类视图和大纲
+Go 文档搜索和 API 索引
+代码导航和信息提示
+代码查找引用
+代码重构和恢复
+集成 gocode
+集成 gomodifytags
+支持代码查询工具 guru
+调试支持 GDB 和 Delve
+系统支持
+Windows x86 (32-bit or 64-bit)
+Linux x86 (32-bit or 64-bit)
+MacOS X10.6 or higher (64-bit)
+FreeBSD 9.2 or higher (32-bit or 64-bit)
+OpenBSD 5.6 or higher (64-bit)
+LiteIDE 命令行
+liteide [files|folder] [--select-env id] [--local-setting] [--user-setting] [--reset-setting]
+
+--select-env [system|win32|cross-linux64|...]     选择初始环境ID
+--local-setting   强制使用本地配置
+--user-setting    强制使用用户配置
+--reset-setting   重置当前配置 ( 清除配置文件 )
+网址
+LiteIDE 源代码 https://github.com/visualfc/liteide
+Gotools 源代码 https://github.com/visualfc/gotools
+发行版下载
+http://sourceforge.net/projects/liteide/files
+https://github.com/visualfc/liteide/releases/latest
+Google 用户组 https://groups.google.com/group/liteide-dev
+如何安装 https://github.com/visualfc/liteide/blob/master/liteidex/deploy/welcome/en/install.md
+FAQ https://github.com/visualfc/liteide/blob/master/liteidex/deploy/welcome/en/guide.md
+历史记录 https://github.com/visualfc/liteide/blob/master/liteidex/deploy/welcome/en/changes.md
+支持 LiteIDE
+http://visualfc.github.com/support
